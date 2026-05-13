@@ -1,3 +1,0 @@
-class ConversationNotFoundError(Exception):
-    pass
-

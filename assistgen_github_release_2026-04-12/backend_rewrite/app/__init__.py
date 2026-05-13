@@ -1,2 +1,0 @@
-"""AssistGen rewrite backend package."""
-
