@@ -1,10 +1,10 @@
-# AssistGen 合规原创改版（淘宝商家智能客服）
+# AssistGen 删减版（淘宝商家智能客服）
 
-一个面向 GitHub 展示与简历讲解的重写项目：在保持原有能力边界的前提下，对后端、前端、部署与文档进行工程化重构。
+
 
 ## 项目亮点
 
-- FastAPI 后端重写，按 `api/services/domain/infra/core` 分层组织
+- FastAPI 后端，按 `api/services/domain/infra/core` 分层组织
 - Vue 3 + Vite + TypeScript 前端重构，按 `pages/features/composables/services/shared` 模块化拆分
 - 支持会话中心、历史消息、流式聊天、知识上传与检索、LangGraph 占位入口
 - 引入 SQLite 持久化与 Alembic 迁移，便于后续演进
@@ -88,14 +88,14 @@ docker compose logs -f backend
 
 ## GitHub 首页截图位
 
-建议截图放入 `docs/images/`：
+
 
 - `01-dashboard-overview.png`：页面总览（健康检查 + 会话 + 聊天）
 - `02-conversation-list.png`：会话列表与历史消息
 - `03-streaming-chat.png`：流式回复过程
 - `04-deployment-terminal.png`：启动与部署终端画面
 
-可在 README 中按需插入：
+在 README 中插入：
 
 ```markdown
 ![dashboard](docs/images/01-dashboard-overview.png)
